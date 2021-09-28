@@ -11,6 +11,10 @@ int main() {
 	cout << "Enter x: ";
 	cin >> x;
      
+     	if (!(std::cin)) {
+		x = 0;
+	}
+	
 	double y, f;
 	double a = 5.2, b = 8.13, c = 7.71;
 	y = (x - a) / (b - c);
